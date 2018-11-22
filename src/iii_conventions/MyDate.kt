@@ -22,7 +22,7 @@ class DateIterator(val dateRange: DateRange) : Iterator<MyDate> {
     var current: MyDate = dateRange.start
     override fun next(): MyDate {
         val result = current
-        current = current.addTimeIntervals(TimeInterval.DAY, 1)
+        current = current.nextDay()
         return result
     }
     override fun hasNext(): Boolean = current <= dateRange.endInclusive

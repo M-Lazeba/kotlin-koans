@@ -1,3 +1,5 @@
+[![official JetBrains project](http://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 Kotlin Koans
 ===========
 
@@ -9,9 +11,11 @@ Each exercise is created as a failing unit test and your job is to make it pass.
 ##### Working with the project using Intellij IDEA or Android Studio:
 
 1. Import the project as Gradle project.
-2. To build the project and run tests use `test` task on Gradle panel. 
+2. To build the project and run the tests use `test` task on the Gradle tool window 
+(`View | Tool Windows | Gradle`). 
 
-Here https://www.jetbrains.com/help/idea/gradle.html you can read how to work with Gradle projects in IntelliJ IDEA.
+Here https://www.jetbrains.com/help/idea/gradle.html#gradle_tasks you can read 
+how to run Gradle task from the Gradle toolbar in IntelliJ IDEA.
 
 ##### Working with the commandline
 
@@ -73,7 +77,7 @@ You can find [here](https://www.jetbrains.com/help/idea/navigating-to-action.htm
 
 You can solve the similar tasks using Educational Plugin or in the browser:
 
-- Educational Plugin https://blog.jetbrains.com/kotlin/2016/03/kotlin-educational-plugin
+- EduTools Plugin https://plugins.jetbrains.com/plugin/10081-edutools
 - online version of koans http://try.kotl.in
 
 The koans tasks for web-demo and educational plugin can be found here: https://github.com/Kotlin/kotlin-koans-edu
